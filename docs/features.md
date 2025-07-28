@@ -1,7 +1,21 @@
+# ✨ Features
 
-# Current Features
+This file tracks all the key features built into the app.
 
-- [x] User Authentication
-- [x] Create new habits
-- [x] Mark weekly schedule (Sun–Sat)
-- [ ] Track completion per day (coming soon)
+---
+
+## ✅ Core Features
+
+- [x] User authentication with Auth.js
+- [x] Create, read, and delete habits
+- [x] Assign weekdays (Sun–Sat) for tracking
+- [x] Mobile responsive layout
+
+---
+
+## 🔜 Upcoming Features
+
+- [ ] Completion logging per date
+- [ ] Streak tracking and charts
+- [ ] Weekly summary emails
+- [ ] Dark mode

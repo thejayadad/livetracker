@@ -1,7 +1,15 @@
-# Changelog
+# 📓 Changelog
+
+Track all changes using semantic versioning and conventional commits.
+
+---
 
 ## [0.1.0] - 2025-07-28
+
 ### Added
-- Initial project setup
-- Tailwind CSS and Prisma configured
-- Habit model with Sun–Sat booleans
+- Habit model and relation to user by email
+- Docs folder and starter markdown files
+- README.md with full setup and usage
+
+### Updated
+- Tailwind and Prisma configs for production

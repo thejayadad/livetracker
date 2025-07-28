@@ -1,14 +1,48 @@
+# ⚙️ Setup Guide
 
+Follow these steps to get the project running locally.
 
 ---
 
-### 2. `docs/setup.md`
-Go into detail:
-```md
-# Setup Guide
+## 🧱 Prerequisites
 
-## Local Development
+- Node.js (v18 or higher)
+- PostgreSQL database
+- Git
 
-1. Clone the repo
-2. Create your `.env.local` file
-3. Run Prisma:
+---
+
+## 📦 Installation
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/livetracker.git
+cd livetracker
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Create a `.env.local` file**
+
+```env
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE
+```
+
+4. **Push schema to database**
+
+```bash
+npx prisma db push
+```
+
+5. **Start the server**
+
+```bash
+npm run dev
+```
+
+> Visit [http://localhost:3000](http://localhost:3000) to use the app locally.
