@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Habit Tracker App
+
+A fullstack habit tracking app built with Next.js, Prisma, PostgreSQL, and Tailwind CSS.
+
+## Tech Stack
+- Next.js 14 App Router
+- Tailwind CSS
+- Prisma + PostgreSQL
+- Auth.js (Email/Google login)
+- Vercel for hosting
+
+## Getting Started
+1. Clone this repo
+2. Create `.env.local` and add your `DATABASE_URL`
+3. Run:
+
+```bash
+npm install
+npx prisma db push
+npm run dev
+
